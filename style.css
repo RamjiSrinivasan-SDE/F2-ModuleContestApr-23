@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+
+#studentportal h1{
+    background-color: black;
+    margin: auto;
+  }
+
+#student portal{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+#studentsearch{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 25px;
+
+}
+#studentsearch input {
+width: 40%;
+padding: 10px 0;
+font-size: 18px;
+}
+
+
+#studentsearch button {
+padding: 10px 0;
+width: 10%;
+font-size: 22px;
+background-color: black;
+color: white;
+}
+
+#sortbutton{
+    display: flex; 
+ justify-content: space-between;
+   
+    padding: 20px 0;
+
+}
+#sortbutton button{
+
+    background-color: black; 
+    padding-top: 10px; 
+    padding: 10px 0;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #studenttable{
+    width: 100%;
+   
+    padding: 0 20px;
+
+  }
+  
+  #studenttable th,
+  #studenttable td {
+    border: 0.5px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #studenttable th {
+    background-color:blue
+
+  }
+
+  
+  #studenttable .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
